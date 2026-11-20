@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -34,7 +34,7 @@ header h1{
 
 nav{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 18px;
 }
